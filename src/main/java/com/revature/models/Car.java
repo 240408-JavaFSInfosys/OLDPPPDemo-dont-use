@@ -25,6 +25,31 @@ public class Car {
         this.color = color;
     }
 
-    //TODO: getters/setters + toString
+    //getters and setters
+    public int getCarId() {
+        return carId;
+    }
+
+    public void setCarId(int carId) {
+        this.carId = carId;
+    }
+
+    public String getEngineType() {
+        return engineType;
+    }
+
+    public void setEngineType(String engineType) {
+        this.engineType = engineType;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    //TODO: we COULD add a toString if we needed to print out a car for instance
 
 }
